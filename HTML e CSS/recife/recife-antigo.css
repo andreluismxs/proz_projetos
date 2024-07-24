@@ -4,6 +4,9 @@ body {
   padding: 0;
   background-color: #ffffff;
   color: #2bafaf;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -14,6 +17,9 @@ header {
 }
 
 main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
 }
 
@@ -31,6 +37,7 @@ h1, h2 {
 
 footer {
   background-color: #01131a;
+  color: white; 
   padding: 20px;
   text-align: center;
 }
